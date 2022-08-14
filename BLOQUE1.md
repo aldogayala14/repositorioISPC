@@ -47,3 +47,16 @@ Se realizan los siguientes pasos:
 14- Finalmente, el usuario velos datos solicitados.
 Para una base de datos específica solo hay un esquema interno y uno conceptual, pero puede haber varios esquemas externos definidos para uno o varios usuarios.
 # DISEÑOS DE BASES DE DATOS RELACIONALES #
+Modelo Entidad Relación:
+Surge en 1970 de la mano de Edward Cood en los laboratorios I.B.M desarrollo un modelo en el cual quería centrarse en la estructura de bases de datos y en la manipulación de los mismos, que no haya redundancias y los datos tengan integridad, define un modelo con relaciones y a su vez con sus atributos, implementa DV2(motores de bases de datos).
+Formas para hacer un modelo:
+⦁	Crear un conjunto de tablas iniciales aplicando operaciones de normalización hasta conseguir el esquema más optimo.
+⦁	Convertir el modelo entidad relación (ER) en tablas con una depuración lógica aplicando restricciones de integridad.
+Objetivos:
+⦁	Independencia física: La forma de almacenar los satos no debe inferir en su manipulación.
+⦁	Independencia logica:Las aplicaciones que utiliza las bases de datos no deben ser modificadas.
+⦁	Flexibilidad: Es el sentido de poder presentar a cada usuario los datos de la forma que se prefiera.
+⦁	Uniformidad: La estructura lógica de los datos siempre tiene una única forma conceptual (las tablas)
+⦁	Sencillez: Modelo que sea fácil de comprender y utilizar.
+La definición del modelo relacional se basa en tablas y relaciones, registros, túpalas, atributos, cada túpala debe corresponder a un elemento del mundo real, no pueden haber dos túpalas iguales. No puede haber dos atributos con el mismo nombre en la misma tabla. Si podemos tener dos atributos de un mismo nombre en distintas tablas no siempre es recomendable por una cuestión de orden. Cada uno de estos campos tiene un dominio cada atributo los posibles datos que puede llegar a tener.
+Es importante para definir que valores vamos a tener o permitir y que valores no.
